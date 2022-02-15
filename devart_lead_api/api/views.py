@@ -24,6 +24,7 @@ from channels.db import database_sync_to_async
 import pytz
 import os
 import environ
+import random
 
 env = environ.Env()
 environ.Env.read_env()
@@ -67,6 +68,9 @@ async def get_client_ip(request):
 
 async def check_ispis(rodne_cislo):
 
+    # used to check katastr nemovitostí
+    flip = random.randint(0, 1)
+    return True if flip == 0 else False
     mydata = {"username": str(os.environ.get("ISPIS_USERNAME")),
               "password": str(os.environ.get("ISPIS_PASSWORD")),
               "profile": "OsobaCUZK",
