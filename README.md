@@ -28,6 +28,10 @@ django-environ==0.8.1
 
 
 ## How to run
-<code>cd devart_lead_api</code>
-<code>docker build -t leadapi .</code>
-<code>docker run -it --rm -p 8000:8000 leadapi</code>
+/admin credentials 
+admin / admin
+`cd devart_lead_api`
+`docker build -t leadapi .`
+`docker run -it --rm -p 8000:8000 leadapi`
+
+
