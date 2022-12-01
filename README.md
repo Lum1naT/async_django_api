@@ -25,7 +25,19 @@ channels==3.0.4
 asgiref==3.5.0
 django-environ==0.8.1
 </code>
-
+<code>
+django==4.1.3
+uvicorn==0.20.0
+requests==2.28.1
+psycopg2-binary==2.9.3
+asyncio==3.4.3
+httpx==0.23.1
+django-cors-headers==3.13.0
+djangorestframework==3.14.0
+channels==4.0.0
+asgiref==3.5.0
+django-environ==0.8.1
+</code>
 
 ## How to run
 /admin credentials 
