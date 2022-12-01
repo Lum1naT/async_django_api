@@ -10,3 +10,4 @@ channels==3.0.4
 asgiref==3.5.0
 django-environ==0.8.1
 redis==4.3.5
+instabot==0.117.0

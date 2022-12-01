@@ -147,9 +147,7 @@ def _new_request(ip, url, data, headers):
     new_request.url = url
     new_request.data = data
     new_request.headers = headers
-    new_request.save()
-    redis_instance = redis.StrictRedis(host=settings.REDIS_HOST,
-                                  port=settings.REDIS_PORT, db=0)
+    new_request.save()  
     return new_request
 
 
