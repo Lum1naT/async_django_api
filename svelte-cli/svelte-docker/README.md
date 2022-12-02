@@ -105,3 +105,9 @@ Then, from within your project folder:
 npm run build
 surge public my-project.surge.sh
 ```
+
+
+To run:
+
+docker build . -t svelte-docker
+docker run --rm --name=svelte-docker -p 42069:80 svelte-docker
